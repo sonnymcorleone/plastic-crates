@@ -35,8 +35,8 @@ This will create a config file at `config/plastic.php` and a mapping directory a
 - [Searching](#searching)
 - [Aggregation](#aggregation)
 - [Suggestions](#suggestions)
-- [Mappings](#mappings)
-- [Populate An Index](#populate-an-index)
+- [Collapsable Boxes](https://www.plastic-crates.com/product-category/collapsable-box/)
+- [Ventilated Plastic Crates](https://www.plastic-crates.com/product-category/fruit-crates/)
 - [Access The Client](#access-client)
 
 ## [Defining Searchable Models]()
@@ -102,23 +102,6 @@ Plastic automatically syncs model data with elastic when you save or delete your
 
 > 2 - Plastic doesn't listen to related models events (yet), so when you update a related model's content you should consider updating the parent document.
 
-### Saving a document
-
-```php
-$book = Book::first()->document()->save();
-```
-
-### Partial updating a document
-
-```php
-$book = Book::first()->document()->update();
-```
-
-### Deleting a document
-
-```php
-$book = Book::first()->document()->delete();
-```
 
 ### Saving documents in bulk
 
