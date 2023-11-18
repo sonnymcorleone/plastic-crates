@@ -9,6 +9,7 @@ This will create a config file at `config/plastic.php` and a mapping directory a
 - [Suggestions](#suggestions)
 - [Collapsable Boxes](https://www.plastic-crates.com/product-category/collapsable-box/)
 - [Ventilated Plastic Crates](https://www.plastic-crates.com/product-category/fruit-crates/)
+- [Clear Plastic Crates](https://www.plastic-crates.com/product-category/clear-plastic-totes/)
 - [Access The Client](#access-client)
 
 
